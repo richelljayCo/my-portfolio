@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Richell Jay — Portfolio</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <link rel="stylesheet" href="styles.css" />
+  <script type="text/javascript" src="darkmode.js" defer></script>
+</head>
+<body class="">
+  <!-- ===== Sticky Header / Nav ===== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="brand">moodvent</a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">
+      <label for="nav-toggle" class="burger" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="main-nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <button id="theme-switch">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="C0C487"><path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="C0C487"><path d="M480-280q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Z"/></svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section id="home" class="hero">
+    <div class="hero-overlay container">
+      <h1 class="kicker">Mabuhay!</h1>
+      <h2 class="display">I’m Richell Jay</h2>
+      <div class="editable-container">
+        <p class="subtitle" id="homeEdit" contenteditable="false">An aspiring Software Developer</p>
+        <button id="homeEditBtn" class="saveEditBtn">
+          <svg id="homeEditIcon" style="display:inline;" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#8FA31E"><path d="M216-216h51l375-375-51-51-375 375v51Zm-72 72v-153l498-498q11-11 23.84-16 12.83-5 27-5 14.16 0 27.16 5t24 16l51 51q11 11 16 24t5 26.54q0 14.45-5.02 27.54T795-642L297-144H144Zm600-549-51-51 51 51Zm-127.95 76.95L591-642l51 51-25.95-25.05Z"/></svg>
+          <svg id="homeSaveIcon" style="display:none;" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#8FA31E"><path d="M816-672v456q0 29.7-21.15 50.85Q773.7-144 744-144H216q-29.7 0-50.85-21.15Q144-186.3 144-216v-528q0-29.7 21.15-50.85Q186.3-816 216-816h456l144 144Zm-72 30L642-744H216v528h528v-426ZM480-252q45 0 76.5-31.5T588-360q0-45-31.5-76.5T480-468q-45 0-76.5 31.5T372-360q0 45 31.5 76.5T480-252ZM264-552h336v-144H264v144Zm-48-77v413-528 115Z"/></svg>
+        </button>
+      </div>
+      </section>
+    </div>
+  </section>
+
+  <!-- ===== About ===== -->
+  <section id="about" class="section section-olive">
+    <div class="container about-grid">
+      <div class="about-photo">
+        <img src="images/aboutmepic.png" alt="Portrait of Richell Jay" />
+
+      </div>
+
+      <div class="about-copy">
+        <h3 class="section-title">About Me</h3>
+        <div class="editable-container">
+          <button id="aboutEditBtn" class="saveEditBtn">
+            <svg id="aboutEditIcon" style="display:inline;" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#8FA31E"><path d="M216-216h51l375-375-51-51-375 375v51Zm-72 72v-153l498-498q11-11 23.84-16 12.83-5 27-5 14.16 0 27.16 5t24 16l51 51q11 11 16 24t5 26.54q0 14.45-5.02 27.54T795-642L297-144H144Zm600-549-51-51 51 51Zm-127.95 76.95L591-642l51 51-25.95-25.05Z"/></svg>
+            <svg id="aboutSaveIcon" style="display:none;" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#8FA31E"><path d="M816-672v456q0 29.7-21.15 50.85Q773.7-144 744-144H216q-29.7 0-50.85-21.15Q144-186.3 144-216v-528q0-29.7 21.15-50.85Q186.3-816 216-816h456l144 144Zm-72 30L642-744H216v528h528v-426ZM480-252q45 0 76.5-31.5T588-360q0-45-31.5-76.5T480-468q-45 0-76.5 31.5T372-360q0 45 31.5 76.5T480-252ZM264-552h336v-144H264v144Zm-48-77v413-528 115Z"/></svg>
+          </button>
+
+          <section id="aboutEdit" contenteditable="false">
+            <p>
+              Hi, I’m Richell Jay, a curious developer with a soft spot for green. Seriously, show me a lush UI or a cozy forest palette and I light up. Right now, I’m deep into gaming (it’s my favorite way to unwind and get inspired), and I’m channeling that energy into building apps that aren’t just functional, but genuinely delightful to use.
+            </p>
+            <p>
+              Whether I’m debugging a tricky component or sketching out a new feature, I’m always chasing that sweet spot where aesthetics meet usability.
+            </p>
+          </section>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+    <!-- ===== Skills ===== -->
+  <section id="skills" class="section section-olive">
+    <div class="container">
+      <h3 class="section-title center">Skills</h3>
+
+      <div class="skills-grid">
+        <article class="skill-card">
+            <img src="images/skills.gif" alt="UI/UX Design">
+            <h4 class="skill-title">UI/UX DESIGN</h4>
+            <p class="skill-text">
+                I have a strong appreciation for thoughtful design and user-centered experiences. My approach to UI/UX combines aesthetic sensitivity with functional clarity, ensuring that every interface I create is both visually engaging and intuitively navigable.
+            </p>
+        </article>
+
+        <article class="skill-card">
+            <img src="images/skills.gif" alt="App Development">
+          <h4 class="skill-title">APP DEVELOPMENT</h4>
+          <p class="skill-text">
+            I enjoy building apps that feel smooth, look great, and actually solve problems. I use React Native and Expo Router to bring ideas to life, whether it's a cozy habit tracker or a note taking management app for students. I care about how things work under the hood, but I also want users to feel good using what I make.
+          </p>
+        </article>
+
+        <article class="skill-card">
+            <img src="images/skills.gif" alt="Web Design">
+          <h4 class="skill-title">WEB DESIGN</h4>
+          <p class="skill-text">
+            I enjoy crafting websites that feel clean, cozy, and easy to explore. I focus on layout, color harmony, and responsive design, making sure everything looks great on any screen. Whether it’s a portfolio or a playful landing page, I design with both structure and soul.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Projects ===== -->
+  <section id="projects" class="section section-olive">
+    <div class="container">
+      <h3 class="section-title center">Projects</h3>
+
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <img class="plant" src="images/projects.gif" alt="Pixel plant art placeholder" />
+          <div class="project-body">
+            <h4 class="project-title">Studify</h4>
+            <p class="project-text">
+              A Spotify-inspired note management system for students.
+            </p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img class="plant" src="images/projects.gif" alt="Pixel plant art placeholder" />
+          <div class="project-body">
+            <h4 class="project-title">Herbit</h4>
+            <p class="project-text">
+              A cozy Android app for building habits and tracking progress.
+            </p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img class="plant" src="images/projects.gif" alt="Pixel plant art placeholder" />
+          <div class="project-body">
+            <h4 class="project-title">MediSync</h4>
+            <p class="project-text">
+              A full-stack PostgreSQL-based inventory management system.
+            </p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section id="contact" class="section section-olive contact">
+    <div class="container contact-inner">
+      <h3 class="section-title center">Contact Me</h3>
+
+      <div class="contact-cards">
+        <a class="contact-card" href="mailto:richelljaycolaljo@gmail.com" aria-label="Send email">
+          <i class="fa-solid fa-envelope"></i>
+          <div>
+            <div class="contact-label">Email</div>
+            <div class="contact-value">richelljaycolaljo@gmail.com</div>
+          </div>
+        </a>
+
+        <a class="contact-card" href="tel:+639308765741" aria-label="Call phone">
+          <i class="fa-solid fa-phone"></i>
+          <div>
+            <div class="contact-label">Phone</div>
+            <div class="contact-value">+63 930 876 5741</div>
+          </div>
+        </a>
+      </div>
+
+      <form class="contact-form" action="#" method="post">
+        <div class="form-row">
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" placeholder="Your name" required>
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" placeholder="you@example.com" required>
+          </label>
+        </div>
+        <label class="full">
+          <span>Message</span>
+          <textarea name="message" rows="5" placeholder="Tell me about your project…" required></textarea>
+        </label>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> RichelljayCo. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
